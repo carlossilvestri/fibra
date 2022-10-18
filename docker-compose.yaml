@@ -11,7 +11,7 @@ services:
       context: .
     #Eliminamos esta línea que se sustituye por el dockerfile
     #image: php:7.0-apache
-    container_name: apache-container
+    container_name: apache-container-web-2
     volumes:
       #Carpeta donde guardaremos los archivos web : carpeta interna de Docker
       - ./:/var/www/html
