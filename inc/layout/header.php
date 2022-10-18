@@ -36,7 +36,7 @@
 		<div class="container">
 			<div class="header-content">
 				<div class="logo-wrapper">
-					<a href="#" style="text-decoration:none">
+					<a href="index.php" style="text-decoration:none">
 						<h3 class="logo-header"><span class="header-name">Fibra-Customer | </span><span class="logo-color"><?php echo $titles[$archivo] ?></span></h3>
 					</a>
 				</div>

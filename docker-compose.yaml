@@ -17,7 +17,7 @@ services:
       - ./:/var/www/html
     expose:
       #Puerto que queremos exponer a para poder compartirlo con otros contenedores
-      - 90
+      - 4000
     ports:
       # Puerto de nuestra máquina : puerto dentro de Docker (siempre va a ser el 80 para apache o 443 para SSL)
-      - 90:80
+      - 4000:80
