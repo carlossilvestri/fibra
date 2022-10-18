@@ -34,8 +34,8 @@ include 'inc/layout/head.php';
 				<div class="section-title-wrapper text-center">
 					<h2 class="section-title text-white text-center" style="color:var(--default-color-invert)!important;text-transform:none;">Teléfono Disponible 24 horas</h2>
 					<div class="modal-end-cta-button-w">
-						<a class="button content-button call-cta-big-button" onclick="saveOption(this, 'conversion');" href="tel:910312411"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span>910 241 411</span></a>
-						<p class="text-legal">Puedes llamar al teléfono 910312411 de forma totalmente gratuita y le atenderemos sin compromiso.</p>
+						<a class="button content-button call-cta-big-button" onclick="saveOption(this, 'conversion');" href="tel:11855"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span> 11855</span></a>
+						<p class="text-legal">Puedes llamar al teléfono 11855 de forma totalmente gratuita y le atenderemos sin compromiso.</p>
 					</div>
 				</div>
 				<p class="text-white text-center call-cta-text">¿Necesita Ayuda? Usted puede contactar con nuestro equipo en cualquier momento, disponemos de técnicos especializados que solucionarán cualquier incidencia con su línea. El servicio de atención al cliente está disponible los 365 días del año, 24 horas al día. Llámenos en cualquier momento y le ayudaremos.</p>

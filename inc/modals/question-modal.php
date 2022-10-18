@@ -15,8 +15,8 @@
 				<h2 style="color: var(--primary-color);font-size: 2em;margin-top: -20px;margin-bottom: 10px;text-align:center;">910 241 411</h2>
 				<div class="modal-end-cta-button-w">
 					<p style="margin-bottom:-1px;">Haga click en el botón para llamar</p>
-					<a class="button content-button modal-end-cta-button" style="text-transform:none" onclick="saveOption(this, 'conversion');" href="tel:910312411"><span class="material-icons-two-tone button-icon">phone</span><span>Llamar ahora</span></a>
-					<p class="text-legal">Puedes llamar al teléfono 910312411 de forma totalmente gratuita y le atenderemos sin compromiso.</p>
+					<a class="button content-button modal-end-cta-button" style="text-transform:none" onclick="saveOption(this, 'conversion');" href="tel:11855"><span class="material-icons-two-tone button-icon">phone</span><span>Llamar ahora</span></a>
+					<p class="text-legal">Puedes llamar al teléfono 11855 de forma totalmente gratuita y le atenderemos sin compromiso.</p>
 				</div>
 			</div>
 		</div>
