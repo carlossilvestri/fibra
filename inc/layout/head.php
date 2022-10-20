@@ -17,12 +17,9 @@
 		// Si el archivo no existe, o el tiempo de cacheo ya se venció genera uno nuevo
 		ob_start();
 		$serverName = "server-sun"; 
-		$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+		$actual_link = "https://server-sun.com";
 		$year = date("Y");
 		$phone = "931350811"; //web normal 931350811 . web oculta 11855
-		if($serverName == ""){
-
-		}
 		$titles = [
 			"index.php" =>  $serverName . " - La conexión más rápida 5G",
 			"fibra.php" =>  $serverName . " - Tarifas Fibra",
