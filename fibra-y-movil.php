@@ -12,8 +12,8 @@ include 'inc/layout/head.php';
 			<div class="hero-content">
 				<div class="row dm">
 					<div class="col-lg-12 dp">
-						<span class="hero-subtitle">Fibra-Customer</span>
-						<h1 class="hero-title hero-title-s">¡Simplifica con Internet de fibra óptica y móvil en <span class="primary-accent">una única tarifa!</span></h1>
+						<span class="hero-subtitle"><?php echo $serverName; ?></span>
+						<h1 class="hero-title hero-title-s">¡Queremos ser tu operador integral! <span class="primary-accent">Todo en una sola factura. </span> ¡Simplificamos tus comunicaciones!</h1>
 						<div class="button-wrapper">
 							<a class="button contact-modal-trigger">Quiero más información</a>
 						</div>
@@ -36,7 +36,7 @@ include 'inc/layout/head.php';
 								</div>
 								<div class="price-wrap">
 									<span class="plan-sign">€</span>
-									<span class="plan-price">29.95</span>
+									<span class="plan-price">30.32</span>
 									<span class="plan-duration">/mes</span>
 								</div>
 								<div class="plan-features">
@@ -62,7 +62,7 @@ include 'inc/layout/head.php';
 								</div>
 								<div class="price-wrap">
 									<span class="plan-sign">€</span>
-									<span class="plan-price">34.95</span>
+									<span class="plan-price">35.32</span>
 									<span class="plan-duration">/mes</span>
 								</div>
 								<div class="plan-features">
@@ -88,7 +88,7 @@ include 'inc/layout/head.php';
 								</div>
 								<div class="price-wrap">
 									<span class="plan-sign">€</span>
-									<span class="plan-price">39.95</span>
+									<span class="plan-price">40.32</span>
 									<span class="plan-duration">/mes</span>
 								</div>
 								<div class="plan-features">
@@ -232,14 +232,14 @@ include 'inc/layout/head.php';
 					<div class="bf-text">
 						<h3 class="bf-title primary-accent text-center">¿Por qué elegirnos?</h3>
 						<ul class="c-list">
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Fibra óptica simétrica</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>La misma velocidad para subir y bajar contenido</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Sin telefonía fija</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>No te obligamos a pagar por teléfono fijo</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Móvil opcional</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Al mejor precio con llamadas ilimitadas y gigas acumulables</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Autogestión</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Entras en nuestra plataforma para administrar tu consumo, tarifas y facturas</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Transfiere tus gigas</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Los gigas que no uses los puedes enviar a tus amigos o familiares</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Sin límite de minutos</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Habla todo lo que necesites, nosotros no te vamos a limitar</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Red 5g</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Con la red más rápida del momento para que no haya cortes</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Soporte premium</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Llamanos con cualquier duda, estamos para ayudarte</li>
 						</ul>
 					</div>
 				</div>

@@ -11,8 +11,8 @@ include 'inc/layout/head.php';
 				<div class="hero-content">
 					<div class="row dm">
 						<div class="col-lg-12 dp">
-							<span class="hero-subtitle">Fibra-Customer</span>
-							<h1 class="hero-title hero-title-s">¡Simple y económico! Todo lo que necesitas para <span class="primary-accent">usar tu móvil</span></h1>
+							<span class="hero-subtitle"><?php echo $serverName; ?></span>
+							<h1 class="hero-title hero-title-s">¡Rápido y sencillo! Tu móvil disponible en <span class="primary-accent">todo momento</span></h1>
 							<div class="button-wrapper">
 								<a class="button contact-modal-trigger">Quiero más información</a>
 							</div>
@@ -35,7 +35,7 @@ include 'inc/layout/head.php';
 									</div>
 									<div class="price-wrap">
 										<span class="plan-sign">€</span>
-										<span class="plan-price">7.95</span>
+										<span class="plan-price">8.4</span>
 										<span class="plan-duration">/mes</span>
 									</div>
 									<div class="plan-features">
@@ -58,7 +58,7 @@ include 'inc/layout/head.php';
 									</div>
 									<div class="price-wrap">
 										<span class="plan-sign">€</span>
-										<span class="plan-price">11.95</span>
+										<span class="plan-price">12.4</span>
 										<span class="plan-duration">/mes</span>
 									</div>
 									<div class="plan-features">
@@ -81,7 +81,7 @@ include 'inc/layout/head.php';
 									</div>
 									<div class="price-wrap">
 										<span class="plan-sign">€</span>
-										<span class="plan-price">14.95</span>
+										<span class="plan-price">15.4</span>
 										<span class="plan-duration">/mes</span>
 									</div>
 									<div class="plan-features">

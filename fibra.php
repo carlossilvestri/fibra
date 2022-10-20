@@ -12,8 +12,8 @@ include 'inc/layout/head.php';
 			<div class="hero-content">
 				<div class="row dm">
 					<div class="col-lg-12 dp">
-						<span class="hero-subtitle">Fibra-Customer</span>
-						<h1 class="hero-title hero-title-s">¡Contrata la tarifa de fibra óptica más rápida y con el periodo de permanencia más <span class="primary-accent">corto del mercado!</span></h1>
+						<span class="hero-subtitle"><?php echo $serverName; ?></span>
+						<h1 class="hero-title hero-title-s">Nuestra tarifa de fibra optica super rápida sin permanencia y con la mejor calidad. <span class="primary-accent">¡Pruébanos!</span></h1>
 						<div class="button-wrapper">
 							<a class="button contact-modal-trigger">Quiero más información</a>
 						</div>
@@ -191,14 +191,14 @@ include 'inc/layout/head.php';
 					<div class="bf-text">
 						<h3 class="bf-title primary-accent text-center">¿Por qué elegirnos?</h3>
 						<ul class="c-list">
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Fibra óptica simétrica</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>La misma velocidad para subir y bajar contenido</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Fibra simétrica</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Subirás y bajarás datos a toda velocidad</li>
 							<li><span class="material-icons-two-tone l-icon">done_outline</span>Sin telefonía fija</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>No te obligamos a pagar por teléfono fijo</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Móvil opcional</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Al mejor precio con llamadas ilimitadas y gigas acumulables</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Autogestión</li>
-							<li><span class="material-icons-two-tone l-icon">done_outline</span>Entras en nuestra plataforma para administrar tu consumo, tarifas y facturas</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Para qué quieras tener el teléfono fijo si ya no lo usas</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Líneas moviles</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Traete tus líneas moviles con nosotros y aprovechas las ofertas</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Soporte</li>
+							<li><span class="material-icons-two-tone l-icon">done_outline</span>Estamos para atenderte, llamanos para consultar tus dudas</li>
 						</ul>
 					</div>
 				</div>

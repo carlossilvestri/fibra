@@ -34,8 +34,8 @@ include 'inc/layout/head.php';
 				<div class="section-title-wrapper text-center">
 					<h2 class="section-title text-white text-center" style="color:var(--default-color-invert)!important;text-transform:none;">Teléfono Disponible 24 horas</h2>
 					<div class="modal-end-cta-button-w">
-						<a class="button content-button call-cta-big-button" onclick="saveOption(this, 'conversion');" href="tel:11855"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span> 11855</span></a>
-						<p class="text-legal">Puedes llamar al teléfono 11855 de forma totalmente gratuita y le atenderemos sin compromiso.</p>
+						<a class="button content-button call-cta-big-button" onclick="saveOption(this, 'conversion');" href="tel:<?php echo $phone ?>"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span><?php echo $phone ?></span></a>
+						<p class="text-legal">Puedes llamar al teléfono <?php echo $phone ?> de forma totalmente gratuita y le atenderemos sin compromiso.</p>
 					</div>
 				</div>
 				<p class="text-white text-center call-cta-text">¿Necesita Ayuda? Usted puede contactar con nuestro equipo en cualquier momento, disponemos de técnicos especializados que solucionarán cualquier incidencia con su línea. El servicio de atención al cliente está disponible los 365 días del año, 24 horas al día. Llámenos en cualquier momento y le ayudaremos.</p>
@@ -54,7 +54,7 @@ include 'inc/layout/head.php';
 					</div>
 					<div class="col-lg-6 dp">
 						<div class="about-text about-text-1">
-							<span class="primary-accent about-subtitle">ACERCA DE Fibra-Customer</span>
+							<span class="primary-accent about-subtitle">ACERCA DE <?php echo $serverName; ?></span>
 							<h2 class="about-title">¡Disfruta de la mejor Fibra 5G y el contenido multimedia 4K y <span class="primary-accent">mucho más</span> !</h2>
 							<p>Te damos acceso a las mejores plataformas de Streaming con la máxima calidad 4K, cargará a la velocidad de la luz con tu conexión 5G.</p>
 							<div class="button-wrapper">
