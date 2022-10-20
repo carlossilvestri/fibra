@@ -16,13 +16,10 @@
 		}
 		// Si el archivo no existe, o el tiempo de cacheo ya se venció genera uno nuevo
 		ob_start();
-		$serverName = $_SERVER["SERVER_NAME"]; 
+		$serverName = "server-sun"; 
 		$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 		$year = date("Y");
 		$phone = "931350811"; //web normal 931350811 . web oculta 11855
-		if($serverName == "server-moón.com"){
-			$phone = "11855"; 
-		}
 		if($serverName == ""){
 
 		}
