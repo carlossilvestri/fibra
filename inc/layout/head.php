@@ -16,15 +16,24 @@
 		}
 		// Si el archivo no existe, o el tiempo de cacheo ya se venció genera uno nuevo
 		ob_start();
-// "Fibra-Customer - Contacto" "contacto.php"
+		$serverName = $_SERVER["SERVER_NAME"]; 
+		$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+		$year = date("Y");
+		$phone = "931350811"; //web normal 931350811 . web oculta 11855
+		if($serverName == "server-moón.com"){
+			$phone = "11855"; 
+		}
+		if($serverName == ""){
+
+		}
 		$titles = [
-			"index.php" => "Fibra-Customer - La conexión más rápida 5G",
-			"fibra.php" => "Fibra-Customer - Tarifas Fibra",
-			"movil.php" => "Fibra-Customer - Tarifas Móviles",
-			"fibra-y-movil.php" => "Fibra-Customer - Oferta Fibra + Móviles",
-			"contacto.php" => "Fibra-Customer - Contacto",
-			"politica-de-privacidad.php" => "Fibra-Customer - Política de Privacidad",
-			"aviso-legal.php" => "Fibra-Customer - Aviso Legal",
+			"index.php" =>  $serverName . " - La conexión más rápida 5G",
+			"fibra.php" =>  $serverName . " - Tarifas Fibra",
+			"movil.php" =>  $serverName . " - Tarifas Móviles",
+			"fibra-y-movil.php" =>  $serverName . " - Oferta Fibra + Móviles",
+			"contacto.php" =>  $serverName . " - Contacto",
+			"politica-de-privacidad.php" =>  $serverName . " - Política de Privacidad",
+			"aviso-legal.php" =>  $serverName . " - Aviso Legal",
 		];
 	?>
 		<title><?php echo $titles[$file] ?></title>

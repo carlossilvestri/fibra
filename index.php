@@ -12,9 +12,9 @@ include 'inc/layout/head.php';
 			<div class="hero-content text-right">
 				<div class="row dm">
 					<div class="col-lg-12 dp">
-						<span class="hero-subtitle">Fibra-Customer</span>
-						<h1 class="hero-title">Navega a máxima velocidad con <br><span class="primary-accent">Fibra-Customer</span></h1>
-						<p><b>Fibra Customer</b> Te ofrece las tarifas ideales para ti. Somos una compañía que está diseñada para satisfacer a sus clientes. Tus prioridades son las nuestras y por eso te ofrecemos la velocidad 5G al mejor precio.</p>
+						<span class="hero-subtitle"><?php echo $serverName; ?></span>
+						<h1 class="hero-title">Super Velocidad para que no te quedes atrás <br><span class="primary-accent"><?php echo $serverName; ?></span></h1>
+						<p><b><?php echo $serverName; ?></b> te ofrece en sus diferentes tarifas la máxima velocidad. Te ofrecemos buenas tarifas para que tu bolsillo no lo note. Contacta con nosotros, estamos para atenderte.</p>
 						<div class="button-wrapper">
 							<a class="button contact-modal-trigger">Quiero más información</a>
 						</div>
@@ -30,7 +30,7 @@ include 'inc/layout/head.php';
 					<div class="col-lg-12 dp">
 						<div class="features-intro-text text-center">
 							<p class="features-i-small primary-accent">UN ANCHO DE BANDA QUE PUEDES DISFRUTAR EN CASA O EN TU EMPRESA</p>
-							<p class="features-i-big">Internet rápido y confiable, con una red fiable que no te dará dolores de cabeza y altas velocidades para subir o bajar el contenido que quieras.</p>
+							<p class="features-i-big">Conexiones de banda ancha seguras, rápidas y eficientes. No querrás dejar de navegar.</p>
 						</div>
 						<div class="features-col-wrapper">
 							<div class="features-col">
@@ -74,9 +74,9 @@ include 'inc/layout/head.php';
 					</div>
 					<div class="col-lg-6 dp">
 						<div class="about-text about-text-1">
-							<span class="primary-accent about-subtitle">ACERCA DE Fibra-Customer</span>
-							<h2 class="about-title">¡Series, películas, documentales, deportes y <span class="primary-accent">mucho más</span> !</h2>
-							<p>Te damos acceso a las mejores plataformas de streaming y canales para ver todo lo que te gusta desde tu Smart Tv, consola, reproductor de Blu-ray y más. Una nueva forma simple de estar siempre conectado con el cine y la televisión.</p>
+							<span class="primary-accent about-subtitle">ACERCA DE <?php echo $serverName; ?></span>
+							<h2 class="about-title">¡Deporte, cine, documentales y <span class="primary-accent">tus series favoritas!</span> !</h2>
+							<p>Con nuestros servicios podrás disfrutar en tu Smart TV de la mejor programación y estarás siempre al día. Que no te dejen atrás.</p>
 							<div class="button-wrapper">
 								<a class="button contact-modal-trigger">Quiero más información</a>
 							</div>
@@ -88,9 +88,9 @@ include 'inc/layout/head.php';
 						<div class="about-text about-text-2 text-right">
 							<span class="primary-accent about-subtitle">Obtenga Internet ultrarrápido</span>
 							<h2 class="about-title">Experimenta una nueva forma <span class="primary-accent">de conectarte</span></h2>
-							<p>¡Siempre contigo para comunicarte! Navega cómo y desde dónde estés.</p>
+							<p>Nunca antes has probado conexiones ultrarápidas como las nuestras. ¿Te lo vas a perder?</p>
 							<div class="button-wrapper">
-								<a class="button contact-modal-trigger">Llámenos ahora para conectar Fibra-Customer</a>
+								<a class="button contact-modal-trigger">Llámenos ahora para conectar <?php echo $serverName; ?></a>
 							</div>
 						</div>
 					</div>
@@ -121,7 +121,7 @@ include 'inc/layout/head.php';
 								</div>
 								<div class="price-wrap">
 									<span class="plan-sign">€</span>
-									<span class="plan-price">7.95</span>
+									<span class="plan-price">11.25</span>
 									<span class="plan-duration">/mes</span>
 								</div>
 								<div class="plan-features">
@@ -145,7 +145,7 @@ include 'inc/layout/head.php';
 								</div>
 								<div class="price-wrap">
 									<span class="plan-sign">€</span>
-									<span class="plan-price">21.99</span>
+									<span class="plan-price">25.29</span>
 									<span class="plan-duration">/mes</span>
 								</div>
 								<div class="plan-features">
@@ -170,7 +170,7 @@ include 'inc/layout/head.php';
 								</div>
 								<div class="price-wrap">
 									<span class="plan-sign">€</span>
-									<span class="plan-price">29.99</span>
+									<span class="plan-price">33.29</span>
 									<span class="plan-duration">/mes</span>
 								</div>
 								<div class="plan-features">
