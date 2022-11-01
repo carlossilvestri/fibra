@@ -11,18 +11,8 @@ include 'inc/layout/head.php';
 		<div class="container">
 			<div class="section-content section-four-content">
 				<div class="row dm">
-					<div class="col-lg-6 dp">
-						<span class="hero-contact-title" style="color:white!important;">¿Es usted cliente nuestro?</span>
-					</div>
-					<div class="col-lg-6 dp">
-						<div class="hero-contact-wrapper question-contact-wrapper">
-							<div class="hero-contact-content section-contact-content">
-								<div class="contact-cta-buttons-wrapper">
-									<a class="button content-button call-cta-button call-cta-button-f"><span>SÍ, SOY CLIENTE</span></a>
-									<a class="button content-button call-cta-button "><span>NO SOY CLIENTE</span></a>
-								</div>
-							</div>
-						</div>
+					<div class="col-lg-12 dp">
+						<span class="hero-contact-title text-center" style="color:white!important;">¿Contacta con nosotros?</span>
 					</div>
 				</div>
 			</div>
