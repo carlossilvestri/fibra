@@ -20,6 +20,6 @@ services:
       - 4001
     ports:
       # Puerto de nuestra máquina : puerto dentro de Docker (siempre va a ser el 80 para apache o 443 para SSL)
-      - 4001:80
+      - '0.0.0.0:4001:80'
     extra_hosts:
       - "host.docker.internal:host-gateway"

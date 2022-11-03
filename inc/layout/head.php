@@ -16,8 +16,8 @@
 		}
 		// Si el archivo no existe, o el tiempo de cacheo ya se venció genera uno nuevo
 		ob_start();
-		$serverName = $_SERVER['SERVER_NAME']; 
-		$actual_link = "https://" . $_SERVER['SERVER_NAME'] . ".com/";
+		$serverName = $_SERVER['SERVER_NAME'];
+		$actual_link = "https://" . $serverName . ".com/";
 		$year = date("Y");
 		$phone = "11855"; //web normal 931350811 . web oculta 11855
 		$titles = [
