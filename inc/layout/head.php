@@ -16,7 +16,7 @@
 		}
 		// Si el archivo no existe, o el tiempo de cacheo ya se venció genera uno nuevo
 		ob_start();
-		$serverName = $_SERVER['SERVER_NAME'];
+		$serverName = "server-moón";   // $_SERVER['SERVER_NAME'] not working because it takes localhost from container;
 		$actual_link = "https://" . $serverName . ".com/";
 		$year = date("Y");
 		$phone = "11855"; //web normal 931350811 . web oculta 11855
