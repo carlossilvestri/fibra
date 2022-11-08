@@ -78,8 +78,8 @@ function usePurple() {
 function useOrange() {
     $("body").get(0).style.setProperty("--primary-color", "#FF5733");
 }
-const actualDomain = window.location.hostname;
-const hostname = window.location.hostname.split(".")[0];
+const origin = window.location.origin;
+const hostname = window.location.hostname.replace(".com", "").replace("www.", "");
 console.log("hostname ", hostname);
 
 const domains = document.querySelectorAll('.domain');
@@ -88,5 +88,5 @@ domains.forEach((domain) => {
 })
 const actualLinks = document.querySelectorAll('.actual-link');
 actualLinks.forEach((actualLink) => {
-    actualLink.textContent = `https://${actualDomain} `;
+    actualLink.textContent = origin;
 })
