@@ -79,7 +79,8 @@ function useOrange() {
     $("body").get(0).style.setProperty("--primary-color", "#FF5733");
 }
 const origin = window.location.origin;
-const hostname = window.location.hostname.replace(".com", "").replace("www.", "");
+let hostname = window.location.hostname.replace(".com", "").replace("www.", "");
+if(hostname === "xn--server-mon-obb") hostname = "server-moón"
 console.log("hostname ", hostname);
 
 const domains = document.querySelectorAll('.domain');
