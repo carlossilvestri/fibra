@@ -11,7 +11,7 @@ include 'inc/layout/head.php';
 		<div class="container">
 			<div class="section-content section-legal-content">
 				<h1 class="text-center legal-title">Política de privacidad</h1>
-				<p>La dirección de nuestra web es: <?php echo $actual_link; ?> - <?php echo $serverName; ?></p>
+				<p>La dirección de nuestra web es: <span class="actual-link"></span> - <span class="domain"><?php echo $serverName; ?></span></p>
 				<p>Te informo que este sitio web, cumple con la normativa de protección de datos: La Ley Orgánica <sup>15</sup>⁄<sub>1999</sub>, de 13 de diciembre, de Protección de Datos de Carácter Personal (LOPD), y al Real Decreto <sup>1720</sup>⁄<sub>2007</sub>, de 21 de diciembre, conocido como el Reglamento de desarrollo de la LOPD. Cumple también con el Reglamento (UE) <sup>2016</sup>⁄<sub>679</sub> del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas (RGPD).</p>
 				<h2><span id="Que_datos_personales_recogemos_y_por_que_los_recogemos">Qué datos personales recogemos y por qué los recogemos</span></h2>
 				<h3><span id="Comentarios">Comentarios</span></h3>

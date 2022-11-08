@@ -21,13 +21,13 @@
 		$year = date("Y");
 		$phone = "11855"; //web normal 931350811 . web oculta 11855
 		$titles = [
-			"index.php" =>  $serverName . " - La conexión más rápida 5G",
-			"fibra.php" =>  $serverName . " - Tarifas Fibra",
-			"movil.php" =>  $serverName . " - Tarifas Móviles",
-			"fibra-y-movil.php" =>  $serverName . " - Oferta Fibra + Móviles",
-			"contacto.php" =>  $serverName . " - Contacto",
-			"politica-de-privacidad.php" =>  $serverName . " - Política de Privacidad",
-			"aviso-legal.php" =>  $serverName . " - Aviso Legal",
+			"index.php" =>  "La conexión más rápida 5G",
+			"fibra.php" =>  "Tarifas Fibra",
+			"movil.php" =>  "Tarifas Móviles",
+			"fibra-y-movil.php" =>  "Oferta Fibra + Móviles",
+			"contacto.php" =>  "Contacto",
+			"politica-de-privacidad.php" =>  "Política de Privacidad",
+			"aviso-legal.php" =>  "Aviso Legal",
 		];
 	?>
 		<title><?php echo $titles[$file] ?></title>

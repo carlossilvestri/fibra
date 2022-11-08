@@ -12,8 +12,8 @@ include 'inc/layout/head.php';
 			<div class="hero-content text-right">
 				<div class="row dm">
 					<div class="col-lg-12 dp">
-						<span class="hero-subtitle"><?php echo $serverName; ?></span>
-						<h1 class="hero-title">Super Velocidad para que no te quedes atrás <br><span class="primary-accent"><?php echo $serverName; ?></span></h1>
+						<span class="hero-subtitle domain"><?php echo $serverName; ?></span>
+						<h1 class="hero-title">Super Velocidad para que no te quedes atrás <br><span class="primary-accent domain"><?php echo $serverName; ?></span></h1>
 						<p><b><?php echo $serverName; ?></b> te ofrece en sus diferentes tarifas la máxima velocidad. Te ofrecemos buenas tarifas para que tu bolsillo no lo note. Contacta con nosotros, estamos para atenderte.</p>
 						<div class="button-wrapper">
 							<a class="button contact-modal-trigger">Quiero más información</a>

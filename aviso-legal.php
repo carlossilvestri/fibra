@@ -17,7 +17,7 @@ include 'inc/layout/head.php';
             <div class='code-block code-block-4' style='margin: 8px 0; clear: both;'>
             <div class="contentllam"></div></div><p>
             <p><strong>1. DATOS IDENTIFICATIVOS</strong></p>
-            <p>Reponsable y titular del sitio web: <?php echo $actual_link; ?> - <?php echo $serverName; ?></p>
+            <p>Reponsable y titular del sitio web: <?php echo $actual_link; ?> - <span class="domain"><?php echo $serverName; ?></span></p>
             <p><strong>2. OBJETO</strong></p>
             <p>A través del Sitio Web, les ofrecemos a los Usuarios la posibilidad de acceder a la información sobre nuestros servicios.</p>
             <p><strong>3. PRIVACIDAD Y TRATAMIENTO DE DATOS</strong></p>

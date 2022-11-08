@@ -54,7 +54,7 @@ include 'inc/layout/head.php';
 					</div>
 					<div class="col-lg-6 dp">
 						<div class="about-text about-text-1">
-							<span class="primary-accent about-subtitle">ACERCA DE <?php echo $serverName; ?></span>
+							<span class="primary-accent about-subtitle">ACERCA DE <span class="domain"><?php echo $serverName; ?></span></span>
 							<h2 class="about-title">¡Disfruta de la mejor Fibra 5G y el contenido multimedia 4K y <span class="primary-accent">mucho más</span> !</h2>
 							<p>Te damos acceso a las mejores plataformas de Streaming con la máxima calidad 4K, cargará a la velocidad de la luz con tu conexión 5G.</p>
 							<div class="button-wrapper">
