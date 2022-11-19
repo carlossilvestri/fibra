@@ -11,7 +11,7 @@ include 'inc/layout/head.php';
 				<div class="hero-content">
 					<div class="row dm">
 						<div class="col-lg-12 dp">
-							<span class="hero-subtitle"><?php echo $serverName; ?></span>
+							<span class="hero-subtitle domain"><?php echo $serverName; ?></span>
 							<h1 class="hero-title hero-title-s">¡Rápido y sencillo! Tu móvil disponible en <span class="primary-accent">todo momento</span></h1>
 							<div class="button-wrapper">
 								<a class="button contact-modal-trigger">Quiero más información</a>

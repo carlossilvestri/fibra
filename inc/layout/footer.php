@@ -3,7 +3,7 @@
 			<div class="footer-content">
 				<div class="footer-left">
 					<div class="footer-logo text-center">
-						<h3 class="logo-footer"><?php echo $serverName; ?></h3>
+						<h3 class="logo-footer domain"><?php echo $serverName; ?></h3>
 					</div>
 				</div>
 				<div class="footer-right">
@@ -15,7 +15,7 @@
 							</ul>
 						</div>
 					</div>
-					<p class="copyright">© <?php echo $year; ?> <?php echo $serverName; ?> – Todos Los Derechos Reservados.</p>
+					<p class="copyright">© <?php echo $year; ?> <span class="domain"><?php echo $serverName; ?></span> – Todos Los Derechos Reservados.</p>
 				</div>
 			</div>
 		</div>
