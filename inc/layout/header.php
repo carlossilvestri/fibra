@@ -37,7 +37,7 @@
 			<div class="header-content">
 				<div class="logo-wrapper">
 					<a href="index.php" style="text-decoration:none">
-						<h3 class="logo-header"><span class="header-name domain"><?php echo $serverName; ?></span> |<span class="logo-color"><?php echo $titles[$archivo] ?></span></h3>
+						<h3 class="logo-header"><span class="header-name domain"><?php echo $serverName; ?></span><span class="d-none d-sm-inline"> | </span><span class="logo-color"><?php echo $titles[$archivo] ?></span></h3>
 					</a>
 				</div>
 				<div class="nav-wrapper nav-wrapper-d">

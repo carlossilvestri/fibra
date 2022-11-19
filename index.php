@@ -88,7 +88,7 @@ include 'inc/layout/head.php';
 					<div class="col-lg-12 dp">
 						<span class="hero-subtitle domain"><?php echo $serverName; ?></span>
 						<h1 class="hero-title">Super Velocidad para que no te quedes atrás <br><span class="primary-accent domain"><?php echo $serverName; ?></span></h1>
-						<p><b><?php echo $serverName; ?></b> te ofrece en sus diferentes tarifas la máxima velocidad. Te ofrecemos buenas tarifas para que tu bolsillo no lo note. Contacta con nosotros, estamos para atenderte.</p>
+						<p><b><span class="domain"><?php echo $serverName; ?></span></b> te ofrece en sus diferentes tarifas la máxima velocidad. Te ofrecemos buenas tarifas para que tu bolsillo no lo note. Contacta con nosotros, estamos para atenderte.</p>
 						<div class="button-wrapper">
 							<a class="button contact-modal-trigger">Quiero más información</a>
 						</div>
@@ -143,7 +143,7 @@ include 'inc/layout/head.php';
 				<div class="row dm">
 					<div class="col-lg-6 dp">
 						<div class="about-img-w mimg-t">
-							<img src="img/about-1.jpg" class="about-img img-fluid" alt="" />
+							<img src="img/about-1-im.jpg" class="about-img img-fluid" alt="" />
 						</div>
 					</div>
 					<div class="col-lg-6 dp">
@@ -164,13 +164,15 @@ include 'inc/layout/head.php';
 							<h2 class="about-title">Experimenta una nueva forma <span class="primary-accent">de conectarte</span></h2>
 							<p>Nunca antes has probado conexiones ultrarápidas como las nuestras. ¿Te lo vas a perder?</p>
 							<div class="button-wrapper">
-								<a class="button contact-modal-trigger">Llámenos ahora para conectar <?php echo $serverName; ?></a>
+								<button class="button contact-modal-trigger">
+								Llámenos ahora para conectar <span class="domain"></span>
+								</button>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6 dp">
 						<div class="about-img-w mimg-t">
-							<img src="img/about-2.jpg" class="about-img img-fluid" alt="" />
+							<img src="img/about-2-im.jpg" class="about-img img-fluid" alt="" />
 						</div>
 					</div>
 				</div>
