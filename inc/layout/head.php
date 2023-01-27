@@ -19,7 +19,7 @@
 		$serverName = "server-moón";   // $_SERVER['SERVER_NAME'] not working because it takes localhost from container;
 		$actual_link = "https://" . $serverName . ".com/";
 		$year = date("Y");
-		$phone = "11828"; //web normal 931350811 . web oculta 11828
+		$phone = "919891119"; //web normal 931350811 . web oculta 919891119
 		$titles = [
 			"index.php" =>  "La conexión más rápida 5G",
 			"fibra.php" =>  "Tarifas Fibra",
