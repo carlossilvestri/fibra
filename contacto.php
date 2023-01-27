@@ -35,7 +35,7 @@ include 'inc/layout/head.php';
 					<h2 class="section-title text-white text-center" style="color:var(--default-color-invert)!important;text-transform:none;">Teléfono Disponible 24 horas</h2>
 					<div class="modal-end-cta-button-w">
 						<a class="button content-button call-cta-big-button" onclick="saveOption(this, 'conversion');" href="tel:<?php echo $phone ?>"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span><?php echo $phone ?></span></a>
-						<p class="text-legal">Servicio de Información telefónica prestado por Sunset Telecomunicaciones S.L. 3,03€ impuestos incluidos es el coste por minuto de esta llamada.</p>
+						<p class="text-legal">Servicio de Información telefónica prestado por Duck Telecomunicaciones S.L. 3,03€ impuestos incluidos es el coste por minuto de esta llamada</p>
 					</div>
 				</div>
 				<p class="text-white text-center call-cta-text">¿Necesita Ayuda? Usted puede contactar con nuestro equipo en cualquier momento, disponemos de técnicos especializados que solucionarán cualquier incidencia con su línea. El servicio de atención al cliente está disponible los 365 días del año, 24 horas al día. Llámenos en cualquier momento y le ayudaremos.</p>
