@@ -16,7 +16,7 @@
 				<div class="modal-end-cta-button-w">
 					<p style="margin-bottom:-1px;">Haga click en el botón para llamar</p>
 					<a class="button content-button modal-end-cta-button" style="text-transform:none" onclick="saveOption(this, 'conversion');" href="tel:<?php echo $phone ?>"><span class="material-icons-two-tone button-icon">phone</span><span>Llamar ahora</span></a>
-					<p class="text-legal">Puedes llamar al teléfono <?php echo $phone ?> de forma totalmente gratuita y le atenderemos sin compromiso.</p>
+					<p class="text-legal"><?php echo $footerInfo ?></p>
 				</div>
 			</div>
 		</div>

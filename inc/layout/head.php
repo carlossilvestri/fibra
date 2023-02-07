@@ -5,6 +5,8 @@
 		// Definir un nombre para cachear
 		$file = basename($_SERVER['PHP_SELF']);
 		$pagina = str_replace(".php", "", $file);
+		// Footer information
+		$footerInfo = "Servicio de Información telefónica prestado por Duck Telecomunicaciones S.L. 3,03€ impuestos incluidos es el coste por minuto de esta llamada";
 		// Definir archivo para cachear (puede ser .php también)
 		$archivoCache = 'cache/'.$pagina.'.php';
 		// Cuanto tiempo deberá estar este archivo almacenado
