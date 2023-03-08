@@ -49,7 +49,7 @@ include 'inc/layout/head.php';
 				<div class="row dm">
 					<div class="col-lg-6 dp">
 						<div class="about-img-w mimg-t">
-							<img src="img/about-1.jpg" class="about-img img-fluid" alt="" />
+							<img src="img/about-1-im.jpg" class="about-img img-fluid" alt="" />
 						</div>
 					</div>
 					<div class="col-lg-6 dp">
@@ -76,7 +76,7 @@ include 'inc/layout/head.php';
 					</div>
 					<div class="col-lg-6 dp">
 						<div class="about-img-w mimg-t">
-							<img src="img/about-2.jpg" class="about-img img-fluid" alt="" />
+							<img src="img/about-2-im.jpg" class="about-img img-fluid" alt="" />
 						</div>
 					</div>
 				</div>
