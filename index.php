@@ -148,7 +148,7 @@ include 'inc/layout/head.php';
 					</div>
 					<div class="col-lg-6 dp">
 						<div class="about-text about-text-1">
-							<span class="primary-accent about-subtitle">ACERCA DE <?php echo $serverName; ?></span>
+							<span class="primary-accent about-subtitle">ACERCA DE <span class="domain"><?php echo $serverName; ?></span></span>
 							<h2 class="about-title">¡Deporte, cine, documentales y <span class="primary-accent">tus series favoritas!</span> !</h2>
 							<p>Con nuestros servicios podrás disfrutar en tu Smart TV de la mejor programación y estarás siempre al día. Que no te dejen atrás.</p>
 							<div class="button-wrapper">
