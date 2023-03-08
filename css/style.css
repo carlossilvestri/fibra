@@ -8,7 +8,8 @@
 	--default-color:#ffffff;
 	--default-color-invert:#000000;		
 	--primary-filter: invert(35%) sepia(53%) saturate(3272%) hue-rotate(337deg) brightness(101%) contrast(109%);
-	--secondary-filter: invert(7%) sepia(28%) saturate(1007%) hue-rotate(197deg) brightness(97%) contrast(99%); 
+	--secondary-filter: invert(7%) sepia(28%) saturate(1007%) hue-rotate(197deg) brightness(97%) contrast(99%);
+	--primary-font: 'Poppins', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -36,7 +37,7 @@ textarea, input, a, button {
 # Typography
 --------------------------------------------------------------*/
 body {
-	font-family: 'Rajdhani', sans-serif;
+	font-family: var(--primary-font);
 	font-size: 16px;
 	
 }

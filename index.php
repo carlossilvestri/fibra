@@ -14,7 +14,7 @@ include 'inc/layout/head.php';
 					<div class="col-lg-12 dp">
 						<span class="hero-subtitle domain"><?php echo $serverName; ?></span>
 						<h1 class="hero-title">Super Velocidad para que no te quedes atrás <br><span class="primary-accent domain"><?php echo $serverName; ?></span></h1>
-						<p><b><?php echo $serverName; ?></b> te ofrece en sus diferentes tarifas la máxima velocidad. Te ofrecemos buenas tarifas para que tu bolsillo no lo note. Contacta con nosotros, estamos para atenderte.</p>
+						<p><b> <span class="domain"><?php echo $serverName; ?></span></b> te ofrece en sus diferentes tarifas la máxima velocidad. Te ofrecemos buenas tarifas para que tu bolsillo no lo note. Contacta con nosotros, estamos para atenderte.</p>
 						<div class="button-wrapper">
 							<a class="button contact-modal-trigger">Quiero más información</a>
 						</div>
@@ -74,7 +74,7 @@ include 'inc/layout/head.php';
 					</div>
 					<div class="col-lg-6 dp">
 						<div class="about-text about-text-1">
-							<span class="primary-accent about-subtitle">ACERCA DE <?php echo $serverName; ?></span>
+							<span class="primary-accent about-subtitle">ACERCA DE <span class="domain"><?php echo $serverName; ?></span></span>
 							<h2 class="about-title">¡Deporte, cine, documentales y <span class="primary-accent">tus series favoritas!</span> !</h2>
 							<p>Con nuestros servicios podrás disfrutar en tu Smart TV de la mejor programación y estarás siempre al día. Que no te dejen atrás.</p>
 							<div class="button-wrapper">
