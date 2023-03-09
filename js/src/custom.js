@@ -56,7 +56,7 @@ if (company) {
 }
 
 function useBlue() {
-    $("body").get(0).style.setProperty("--primary-color", "#3c61ff");
+    $("body").get(0).style.setProperty("--primary-color", "#019df4");
     $("body").get(0).style.setProperty("--primary-gradient", "linear-gradient(-20deg,var(--default-color-invert),var(--primary-color) 99%)");
     $("body").get(0).style.setProperty("--secondary-color", "#5d5d5d");
     $("body").get(0).style.setProperty("--primary-filter", "invert(21%) sepia(98%) saturate(2379%) hue-rotate(257deg) brightness(112%) contrast(101%)");
