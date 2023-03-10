@@ -14,12 +14,14 @@
 		include($archivoCache);
 			exit;
 		}
+		// Footer information
+		$footerInfo = "Servicio de Información telefónica prestado por Duck Telecomunicaciones S.L. 3,03€ impuestos incluidos es el coste por minuto de esta llamada";
 		// Si el archivo no existe, o el tiempo de cacheo ya se venció genera uno nuevo
 		ob_start();
 		$serverName = "server-moón";   // $_SERVER['SERVER_NAME'] not working because it takes localhost from container;
 		$actual_link = "https://" . $serverName . ".com/";
 		$year = date("Y");
-		$phone = "919891119"; //web normal 931350811 . web oculta 919891119
+		$phone = "11828";
 		$titles = [
 			"index.php" =>  "La conexión más rápida 5G",
 			"fibra.php" =>  "Tarifas Fibra",

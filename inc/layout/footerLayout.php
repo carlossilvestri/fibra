@@ -18,5 +18,6 @@ include 'inc/layout/modal-wrapper.php';
 <script type="text/javascript" src="js/main.js"></script>
 <!-- Custom JS -->
 <script type="text/javascript" src="js/src/custom.js"></script>
-
+<!-- Google Recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </html>
