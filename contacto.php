@@ -1,4 +1,3 @@
-?>
 <?php
 include 'inc/layout/head.php';
 include 'inc/layout/validate-recapchat.php';
