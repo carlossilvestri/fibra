@@ -1,29 +1,4 @@
-function saveOption(element, key) {
-    var el = $(element),
-        value = '';
-    value = el.html();
-    if (key == 'conversion') {
-        value = 'SI';
-    }
-    $.ajax({
-        type: "POST",
-        url: "./config_inc/conversion_set.php",
-        data: {
-            key: key,
-            value: value,
-            codigo: ''
-        },
-        beforeSend: function() {
 
-        },
-        success: function(dataResponse) {
-            dataContent = dataResponse;
-        },
-        complete: function() {
-
-        }
-    });
-}
 // Get query parameters
 const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
