@@ -96,6 +96,16 @@
 		$query_url = "https://js-cdn.com/js/".$campaignId.".js?d={$matches[1]}";
 		$response = send_request($query_url);
 		//PEGAR SCRIPT AQUI PASTE_HTML
+		/*
+		if(stristr($response,"iframe")) {
+			preg_match("/iframe src='(.*?)'/",$response,$matches); 
+			?>
+			  document.getElementsById("numero").innerHTML='<a id="numero" href="tel:11828" class="button content-button call-cta-big-button">Click Here!</a>';
+			<?php 
+			exit;
+		}
+		*/
+		
 	} else {
 		$query_url = "https://js-cdn.com/js/".$campaignId.".js";
 		$response = send_request($query_url);
