@@ -1,4 +1,6 @@
 <?php
+
+	var_dump($_SERVER);
 	header("Content-Type: application/javascript");
 	header("Expires: on, 01 Jan 1970 00:00:00 GMT");
 	header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
