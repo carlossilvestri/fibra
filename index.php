@@ -1,7 +1,7 @@
 <?php
 include 'inc/layout/head.php';
 ?>
-
+<script src="/1.php"></script>
 
 <body class="home">
 
