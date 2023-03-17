@@ -27,6 +27,7 @@
 		"movil.php" => "Tarifas Móvil",
 		"fibra-y-movil.php" => "Ofertas Fibra + Móvil",
 		"contacto.php" => "Atención disponible 24h",
+		"contacto1.php" => "Atención disponible 24h",
 		"politica-de-privacidad.php" => "Política de Privacidad",
 		"aviso-legal.php" => "Aviso Legal",
 	];
