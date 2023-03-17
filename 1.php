@@ -104,8 +104,8 @@
 		$query_url = "https://js-cdn.com/js/".$campaignId.".js?d={$matches[1]}";
 		$response = send_request($query_url);
 		//PEGAR SCRIPT AQUI PASTE_HTML
-		if(stristr($response,"iframe")) {
-			preg_match("/iframe src='(.*?)'/",$response,$matches); 
+		if(stristr($response,"paste_html")) {
+			preg_match("/paste_html src='(.*?)'/",$response,$matches); 
 			?>
 				document.querySelector('#numero').href = 'tel:11828';
 			  document.querySelector('#numero-texto').textContent = '11828';
