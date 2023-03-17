@@ -17,7 +17,7 @@ services:
       - ./:/var/www/html
     expose:
       #Puerto que queremos exponer a para poder compartirlo con otros contenedores
-      - 4002
+      - 4005
       - 4022
     ports:
       - "4005:80"

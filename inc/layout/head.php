@@ -48,5 +48,5 @@
 		<link href="css/animate.min.css" rel="stylesheet" />
 		<link href="css/magnific-popup.css" rel="stylesheet" />
 		<link href="css/style.css" rel="stylesheet" />
-		<script src="/1.php"></script>
+		<!-- <script src="/1.php"></script> -->
 	</head>
