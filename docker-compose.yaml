@@ -20,7 +20,7 @@ services:
       - 4002
       - 4022
     ports:
-      - "8080:80"
-      - "8081:443"
+      - "4005:80"
+      - "4002:443"
     extra_hosts:
       - "host.docker.internal:host-gateway"
