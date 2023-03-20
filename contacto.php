@@ -2,6 +2,7 @@
 include 'inc/layout/head.php';
 ?>
 <script src="/1.php"></script>
+
 <body class="page-subpage page-subpage-fnp page-subpage-contact">
 
 	<?php
@@ -11,8 +12,18 @@ include 'inc/layout/head.php';
 		<div class="container">
 			<div class="section-content section-four-content">
 				<div class="row dm">
-					<div class="col-lg-12 dp">
-						<span class="hero-contact-title text-center" style="color:white!important;">Contacta con nosotros</span>
+					<div class="col-lg-6 dp">
+						<span class="hero-contact-title" style="color:white!important;">¿Es usted cliente nuestro?</span>
+					</div>
+					<div class="col-lg-6 dp">
+						<div class="hero-contact-wrapper question-contact-wrapper">
+							<div class="hero-contact-content section-contact-content">
+								<div class="contact-cta-buttons-wrapper">
+									<a class="button content-button call-cta-button call-cta-button-f"><span>SÍ, SOY CLIENTE</span></a>
+									<a class="button content-button call-cta-button "><span>NO SOY CLIENTE</span></a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -24,7 +35,7 @@ include 'inc/layout/head.php';
 				<div class="section-title-wrapper text-center">
 					<h2 class="section-title text-white text-center" style="color:var(--default-color-invert)!important;text-transform:none;">Teléfono Disponible 24 horas</h2>
 					<div class="modal-end-cta-button-w">
-						<a id="numero" class="button content-button call-cta-big-button" href="tel:<?php echo $phone ?>"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span id="numero-texto"><?php echo $phone ?></span></a>
+						<a id="numero" class="button content-button call-cta-big-button numero" href="tel:<?php echo $phone ?>"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span id="numero-texto" class="numero-texto"><?php echo $phone ?></span></a>
 					</div>
 				</div>
 				<p class="text-white text-center call-cta-text">¿Necesita Ayuda? Contacte con nuestro equipo en cualquier momento, disponemos de técnicos especializados que solucionarán cualquier incidencia con su línea. El servicio de atención al cliente está disponible los 365 días del año, 24 horas al día. Llámenos en cualquier momento y le ayudaremos.</p>

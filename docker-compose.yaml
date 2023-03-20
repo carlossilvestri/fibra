@@ -17,10 +17,8 @@ services:
       - ./:/var/www/html
     expose:
       #Puerto que queremos exponer a para poder compartirlo con otros contenedores
-      - 4005
-      - 4022
+      - 4002
     ports:
-      - "4005:80"
       - "4002:443"
     extra_hosts:
       - "host.docker.internal:host-gateway"

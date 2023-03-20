@@ -5,7 +5,7 @@ include 'inc/layout/footer.php';
 include 'inc/layout/modal-wrapper.php';
 ?>
 <?php
-// include 'inc/modals/question-modal.php';
+include 'inc/modals/question-modal.php';
 ?>
 </body>
 <!-- JS -->
