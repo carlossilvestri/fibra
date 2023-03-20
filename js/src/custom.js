@@ -65,3 +65,4 @@ const actualLinks = document.querySelectorAll('.actual-link');
 actualLinks.forEach((actualLink) => {
     actualLink.textContent = `https://${actualDomain} `;
 })
+

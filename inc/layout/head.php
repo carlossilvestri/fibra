@@ -20,7 +20,7 @@
 		$actual_link = "https://" . $serverName . ".com/";
 		$year = date("Y");
 		$phone = "919891119"; //web normal 931350811 . web oculta 919891119
-		$phone1 = "11828";
+		$phone1 = "919891119";
 		$titles = [
 			"index.php" =>  "La conexión más rápida 5G",
 			"fibra.php" =>  "Tarifas Fibra",

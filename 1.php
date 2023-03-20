@@ -107,8 +107,7 @@
 		if(stristr($response,"paste_html")) {
 			// preg_match("/paste_html src='(.*?)'/",$response,$matches); 
 			?>
-				document.querySelector('#numero').href = 'tel:11828';
-			  document.querySelector('#numero-texto').textContent = '11828';
+
 			<?php 
 			exit;
 		}
