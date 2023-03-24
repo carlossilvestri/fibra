@@ -43,6 +43,9 @@ if (company) {
         case "gray":
             useGray();
             break;
+        case "green":
+            useGreen();
+            break;
         default:
             break;
     }
@@ -77,9 +80,11 @@ function useGray() {
 function useYellow() {
     $("body").get(0).style.setProperty("--primary-color", "#FFFF00");
 }
+function useGreen() {
+    $("body").get(0).style.setProperty("--primary-color", "#008000");
+}
 const actualDomain = window.location.hostname;
 const hostname = window.location.hostname.split(".")[0];
-console.log("hostname ", hostname);
 
 const domains = document.querySelectorAll('.domain');
 domains.forEach((domain) => {

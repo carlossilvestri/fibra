@@ -33,6 +33,9 @@ include 'inc/layout/head.php';
 		<div class="container">
 			<div class="section-content section-call-cta-content">
 				<div class="section-title-wrapper text-center">
+					<h2 class="section-title text-white text-center quieres-texto" style="color:var(--default-color-invert)!important;text-transform:none;"></h2>
+					<br/>
+					<br/>
 					<h2 class="section-title text-white text-center" style="color:var(--default-color-invert)!important;text-transform:none;">Teléfono Disponible 24 horas</h2>
 					<div class="modal-end-cta-button-w">
 						<a id="numero" class="button content-button call-cta-big-button numero" href="tel:<?php echo $phone ?>"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span id="numero-texto" class="numero-texto"><?php echo $phone ?></span></a>
