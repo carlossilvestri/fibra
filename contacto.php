@@ -19,8 +19,8 @@ include 'inc/layout/head.php';
 						<div class="hero-contact-wrapper question-contact-wrapper">
 							<div class="hero-contact-content section-contact-content">
 								<div class="contact-cta-buttons-wrapper">
-									<a class="button content-button call-cta-button call-cta-button-f"><span>SÍ, SOY CLIENTE</span></a>
-									<a class="button content-button call-cta-button "><span>NO SOY CLIENTE</span></a>
+									<a class="button content-button call-cta-button call-cta-button-f"><span class="black-letters">SÍ, SOY CLIENTE</span></a>
+									<a class="button content-button call-cta-button "><span class="black-letters">NO SOY CLIENTE</span></a>
 								</div>
 							</div>
 						</div>
@@ -38,7 +38,7 @@ include 'inc/layout/head.php';
 					<br/>
 					<h2 class="section-title text-white text-center" style="color:var(--default-color-invert)!important;text-transform:none;">Teléfono Disponible 24 horas</h2>
 					<div class="modal-end-cta-button-w">
-						<a id="numero" class="button content-button call-cta-big-button numero" href="tel:<?php echo $phone ?>"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span id="numero-texto" class="numero-texto"><?php echo $phone ?></span></a>
+						<a id="numero" class="button content-button call-cta-big-button numero" href="tel:<?php echo $phone ?>"><i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span id="numero-texto" class="numero-texto black-letters"><?php echo $phone ?></span></a>
 					</div>
 				</div>
 				<p class="text-white text-center call-cta-text">¿Necesita Ayuda? Contacte con nuestro equipo en cualquier momento, disponemos de técnicos especializados que solucionarán cualquier incidencia con su línea. El servicio de atención al cliente está disponible los 365 días del año, 24 horas al día. Llámenos en cualquier momento y le ayudaremos.</p>
